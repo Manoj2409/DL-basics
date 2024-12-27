@@ -6,7 +6,7 @@ age = np.array([21, 22, 23, 24, 25,26,27,28])  # Independent variable
 salary = np.array([20000, 40000, 50000,40000, 50000,60000,80000,100000])  # Dependent variable
 
 # Compute coefficients
-n = len(age)
+age_length = len(age)
 mean_age = np.mean(age)
 mean_salary = np.mean(salary)
 
